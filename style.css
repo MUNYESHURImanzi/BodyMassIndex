@@ -2,13 +2,14 @@
 
 }
 .color{
-    background-color: aqua;
+    background-color: rgb(222, 255, 255);
     width: 65%;
     border-radius: 0px 0px 40px 0px;
 
 }
 .inputs{
     display: flex;
+
 }
 .background{
 display: flex;
@@ -33,10 +34,11 @@ display: flex;
 .calculate{
 
 transform: translate(120%,-18%);
-
+position: relative;
 background-color: rgb(255, 255, 255);
 box-shadow: 3px 2px 2px 2px #f0ebeb;
 width: 60%;
+height: 400px;
 border-radius: 10px;
 padding-left: 15px;
 
@@ -45,16 +47,18 @@ padding-left: 15px;
 .calculate button{
     width: 90px;
     height: 30px;
-    transform: translate(280%,18%);
+    
+   
+    right: 0px;
 }
 .mtext{
     width: 50%;
 }
 .not{
     position: relative;
-    background-color: blue;
-   color: rgb(207, 207, 207);
-    
+    background-color: rgba(0, 0, 133, 0.671);
+   color: rgb(255, 255, 255);
+    height:150px;
     padding-left: 15px;
 border-radius: 0px 50px 50px 0px;
 
@@ -70,7 +74,8 @@ border-radius: 0px 50px 50px 0px;
     margin-top:30px;
 }
 #height,#mass{
-    width: 100px;
+  
+    width: 60%;
     height: 40px;
   display: flex;
     margin: 5px;
@@ -90,7 +95,7 @@ border-radius: 0px 50px 50px 0px;
 }
 .inp b{
     margin: 13px;
-    color: rgb(5, 118, 146);
+    color: rgb(255, 255, 255);
 
   
 }
@@ -111,8 +116,11 @@ label{
 
 }
 .card img{
+    padding: 5px;
  width: 32px;
  height: 32px;
+ border-radius: 50%;
+ background: rgb(206, 146, 68);
 }
 .middle{
     margin-top: 100px;
@@ -121,15 +129,20 @@ margin-left: 70px;
 justify-content: center;
 }
 .sem-middle{
-    display: flex;
+    display: inline-flex;
     margin-top: 0%;
+
+    height: 300px;
     margin-left: 70px;
     margin-right: 70px;
     justify-content: center;
     gap: 10%;
 }
 .card{
-    width: 20%;
+    padding-left: 10px;
+    box-shadow: 2px 3px  3px 3px#1a0707;
+    width: 200px;
+    height: fit-content;
     margin-left: 70px;
 }
 .mtext{

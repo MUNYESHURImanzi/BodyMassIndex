@@ -31,8 +31,18 @@ form.addEventListener("submit",(e)=>{
         var under= document.querySelector(".not p")
         under.innerHTML="    Obese:  Your BMI is 30 or higher "
     } 
+  
+   
+        
+    
+    else if(mass !== '' || height!==''){
+      
+       alert("please  enter you information well")
+       b.innerHTML=""
+    }
     else {
         
+      
     
 
     }
